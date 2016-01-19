@@ -1,4 +1,13 @@
-name: DopeTrope
-description: DopeTrope template for Jekyll
-paginate: 10
-baseurl: '/DopeTrope-Jekyll-Theme'
+# Site settings
+title: FurtherResearch.co - Privacy, security, and freedom on the web. 
+email: contact@furtherresearch.co
+description: > # this means to ignore newlines until "baseurl:"
+  Cyber security research, focused on furthering research and development
+  in information security and privacy.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://furtherresearch.co" # the base hostname & protocol for your site
+twitter_username: cp_bagley
+github_username:  christianbagley
+
+# Build settings
+markdown: kramdown
