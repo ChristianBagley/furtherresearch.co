@@ -1,21 +1,13 @@
-# ----------------------- #
-#      Main Configs       #
-# ----------------------- #
-
-url: http://yoursite.com
-title: Your Awesome Site
-email: your-email@domain.com
-author: Your Name
-description: > # "Write an awesome description for your new site here. 
-  You can edit this line in _config.yml. It will appear in your document 
-  head meta (for Google search results) and in your feed.xml site 
-  description.
-copyright: 'Copyright &copy; 2015 Your Name. All Rights Reserved.'
-credits: 'Credits: Landing Page is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com/">Start Bootstrap</a>.'
-
-# ----------------------- #
-#    Jekyll & Plugins     #
-# ----------------------- #
+# Site settings
+title: FurtherResearch.co - Privacy, security, and freedom on the web. 
+email: contact@furtherresearch.co
+description: > # this means to ignore newlines until "baseurl:"
+  Cyber security research, focused on furthering research and development
+  in information security and privacy.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://furtherresearch.co" # the base hostname & protocol for your site
+twitter_username: cp_bagley
+github_username:  christianbagley
 
 # Build settings
 markdown: kramdown
@@ -27,8 +19,7 @@ permalink: pretty
 
 social:
   - title: twitter
-    url: https://twitter.com/SBootstrap
+    url: https://twitter.com/cp_bagley
   - title: github
-    url: https://github.com/IronSummitMedia/startbootstrap
-  - title: linkedin
-    url: 
+    url: https://github.com/ChristianBagley
+
